@@ -1,0 +1,36 @@
+.cover {
+  display: flex;
+  flex-direction: column;
+  width: 95vw;
+  height: auto;
+  margin: 0 auto;
+  justify-content: flex-start;
+}
+
+.cover p {
+  background: #274d82;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-left: 5px;
+  height: 6vh;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+}
+
+span i {
+  margin: 0 5px;
+}
+
+.reportName {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+.noReports {
+  font-size: 20px;
+  color: white;
+}
