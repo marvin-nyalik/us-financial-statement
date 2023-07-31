@@ -1,0 +1,27 @@
+.cover {
+  width: 100%;
+  height: auto;
+  margin: 5px;
+  background: #274d82;
+  text-decoration: none;
+  border-radius: 2px;
+  color: #fbfbfb;
+  font-size: 15px;
+  padding: 5px;
+  display: flex;
+  overflow: hidden;
+  justify-content: flex-start;
+}
+
+.box {
+  position: relative;
+  right: -90%;
+}
+
+.box i {
+  font-size: 18px;
+}
+
+.boxBody h3 {
+  font-size: 15px;
+}
