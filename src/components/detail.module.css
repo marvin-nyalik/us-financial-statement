@@ -34,3 +34,27 @@ span i {
   font-size: 20px;
   color: white;
 }
+
+@media screen and (min-width: 768px) {
+  .reports {
+    width: 98vw;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .cover {
+    width: 45vw;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 10px auto;
+    float: left;
+  }
+
+  .cover:nth-child(odd) {
+    margin-right: auto;
+  }
+}

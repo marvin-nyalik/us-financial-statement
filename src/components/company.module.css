@@ -13,6 +13,10 @@
   justify-content: flex-start;
 }
 
+.companyLink {
+  text-decoration: none;
+}
+
 .box {
   position: relative;
   right: -90%;

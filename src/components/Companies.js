@@ -1,7 +1,7 @@
 import { useSelector, useDispatch } from 'react-redux';
 import { useEffect } from 'react';
 import css from './companies.module.css';
-import stock from '../images/stock.jpg';
+import stock from '../images/statement.jpg';
 import Company from './Company';
 import Header from './header';
 import Showcase from './showcase';
@@ -10,7 +10,7 @@ import { fetchCompanies } from '../redux/companies/companiesSlice';
 
 const Companies = () => {
   const dispatch = useDispatch();
-  const { loading } = useSelector((state) => state.companies.loading);
+  const loading = useSelector((state) => state.companies.loading);
   const companies = useSelector((state) => state.companies.companies);
   const headline = 'Selected Companies';
   const year = <i className="bx bx-chevron-left-circle" />;
