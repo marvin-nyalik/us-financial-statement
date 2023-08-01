@@ -5,7 +5,7 @@ import css from './company.module.css';
 const Company = ({ name }) => {
   const names = name;
   return (
-    <Link to={`/detail/${name}`}>
+    <Link to={`/detail/${name}`} className={css.companyLink}>
       <div className={css.cover}>
         <div className={css.box}>
           <i className="bx bx-chevron-right-circle" />
@@ -18,7 +18,6 @@ const Company = ({ name }) => {
           </h3>
           <div>
             <p>Area : US</p>
-            <p>11763</p>
           </div>
         </div>
       </div>

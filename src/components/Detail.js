@@ -36,59 +36,64 @@ const Detail = () => {
     <>
       <Header back={back} headline={headline} />
       <Showcase image={statementImage} showline={showline} />
+
       {report.length === 0 ? (
         <p className={css.noReports}>
           No Reports
         </p>
-      ) : report.map((report, index) => (
-        <div key={`${report.researchExpenses}${report.date}`} className={css.cover}>
-          <h3 className={css.reportName}>
-            Report
-            {' '}
-            {index + 1}
-          </h3>
-          <p>
-            <span> Report Date: </span>
-            <span>
-              {' '}
-              {report.date}
-              <i className="bx bx-chevron-right-circle" />
-            </span>
-          </p>
-          <p>
-            <span> Currency:</span>
-            <span>
-              {' '}
-              {report.currency}
-              <i className="bx bx-chevron-right-circle" />
-            </span>
-          </p>
-          <p>
-            <span> Year:</span>
-            <span>
-              {' '}
-              {report.year}
-              <i className="bx bx-chevron-right-circle" />
-            </span>
-          </p>
-          <p>
-            <span> Expenses:</span>
-            <span>
-              {' '}
-              {report.researchExpenses}
-              <i className="bx bx-chevron-right-circle" />
-            </span>
-          </p>
-          <p>
-            <span> Income: </span>
-            <span>
-              {' '}
-              {report.income}
-              <i className="bx bx-chevron-right-circle" />
-            </span>
-          </p>
+      ) : (
+        <div className={css.reports}>
+          {report.map((report, index) => (
+            <div key={`${report.researchExpenses}${report.date}`} className={css.cover}>
+              <h3 className={css.reportName}>
+                Report
+                {' '}
+                {index + 1}
+              </h3>
+              <p>
+                <span> Report Date: </span>
+                <span>
+                  {' '}
+                  {report.date}
+                  <i className="bx bx-chevron-right-circle" />
+                </span>
+              </p>
+              <p>
+                <span> Currency:</span>
+                <span>
+                  {' '}
+                  {report.currency}
+                  <i className="bx bx-chevron-right-circle" />
+                </span>
+              </p>
+              <p>
+                <span> Year:</span>
+                <span>
+                  {' '}
+                  {report.year}
+                  <i className="bx bx-chevron-right-circle" />
+                </span>
+              </p>
+              <p>
+                <span> Expenses:</span>
+                <span>
+                  {' '}
+                  {report.researchExpenses}
+                  <i className="bx bx-chevron-right-circle" />
+                </span>
+              </p>
+              <p>
+                <span> Income: </span>
+                <span>
+                  {' '}
+                  {report.income}
+                  <i className="bx bx-chevron-right-circle" />
+                </span>
+              </p>
+            </div>
+          ))}
         </div>
-      ))}
+      )}
 
     </>
   );
