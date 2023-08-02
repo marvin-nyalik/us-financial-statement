@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import css from './companies.module.css';
@@ -20,11 +21,6 @@ const Header = ({ back, headline }) => (
 
 Header.propTypes = {
   headline: PropTypes.string.isRequired,
-  back: PropTypes.instanceOf(Element),
-};
-
-Header.defaultProps = {
-  back: <i className="bx bx-chevron-left-circle" />,
 };
 
 export default Header;
