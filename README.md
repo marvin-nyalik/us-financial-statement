@@ -21,6 +21,7 @@
 
 
 **US financial statements** is an application that showcases the financial statements of selected companies in the US. The data is in real time, audited, standardized and up to date from the US stock market
+Here is a brief <a href="https://www.loom.com/share/3ebaf875dfad429ba1a4ef53b307f8f5?sid=6377f9ab-7374-4405-8e2d-18823afc90da"> video presentation </a> of the project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
