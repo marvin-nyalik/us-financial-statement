@@ -53,15 +53,4 @@ describe('Company test', () => {
     const loadingElement = screen.getByText('Loading');
     expect(loadingElement).toBeInTheDocument();
   });
-
-  // test('renders company component with company data', () => {
-  //   const {getByText} = render(
-  //     <Provider store={store}>
-  //         <Detail />
-  //     </Provider>
-  //   );
-
-  //   const company1 = getByText('12/2/1212');
-  //   expect(company1).toBeInTheDocument();
-  // });
 });
