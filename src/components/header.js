@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import css from './companies.module.css';
 
@@ -18,9 +17,5 @@ const Header = ({ back, headline }) => (
     </div>
   </div>
 );
-
-Header.propTypes = {
-  headline: PropTypes.string.isRequired,
-};
 
 export default Header;

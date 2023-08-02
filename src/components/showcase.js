@@ -1,5 +1,5 @@
+/* eslint-disable react/prop-types */
 import { useSelector } from 'react-redux';
-import PropTypes from 'prop-types';
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import css from './companies.module.css';
@@ -32,11 +32,6 @@ const Showcase = ({ image, showline }) => {
       </div>
     </div>
   );
-};
-
-Showcase.propTypes = {
-  image: PropTypes.string.isRequired,
-  showline: PropTypes.string.isRequired,
 };
 
 export default Showcase;
