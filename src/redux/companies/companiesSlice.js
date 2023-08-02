@@ -8,7 +8,7 @@ const initialState = {
 };
 
 export const fetchCompanies = createAsyncThunk('/fetch-companies', async () => {
-  const companies = await axios.get('https://financialmodelingprep.com/api/v3/financial-statement-symbol-lists?apikey=c5854d756f7d6f0e8b7e68348830a2aa');
+  const companies = await axios.get('https://financialmodelingprep.com/api/v3/financial-statement-symbol-lists?apikey=1b41a7ddd511d92ce0de893c4f689169');
   const filteredCompanies = companies.data.splice(11762, 10);
   return filteredCompanies;
 });
