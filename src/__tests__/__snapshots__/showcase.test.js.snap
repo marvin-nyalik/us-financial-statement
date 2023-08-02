@@ -19,6 +19,9 @@ exports[`Test the header component Matches the snapshot 1`] = `
       <h3
         class="showline"
       />
+      <div
+        class="companyList"
+      />
     </div>
   </div>
 </div>

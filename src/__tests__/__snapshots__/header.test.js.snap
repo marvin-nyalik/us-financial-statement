@@ -10,9 +10,6 @@ exports[`Test the header component Matches the snapshot 1`] = `
         class="year"
         href="/"
       >
-        <i
-          class="bx bx-chevron-left-circle"
-        />
          
       </a>
     </p>
