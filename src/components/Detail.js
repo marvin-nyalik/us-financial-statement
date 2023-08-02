@@ -39,7 +39,7 @@ const Detail = () => {
 
       {report.length === 0 ? (
         <p className={css.noReports}>
-          No Reports
+          No Reports - INVALID CODE !!!
         </p>
       ) : (
         <div className={css.reports}>

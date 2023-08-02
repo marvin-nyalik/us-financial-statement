@@ -40,15 +40,18 @@
   overflow: hidden;
 }
 
-.showDiv {
-  width: 48%;
-  margin: 0 auto;
-  color: #fff;
-}
-
 .showline {
   font-size: 15px;
   color: #fff;
+  margin-top: 0;
+}
+
+.showDiv {
+  display: block;
+  width: 48%;
+  margin: 0 auto;
+  color: #fff;
+  height: 25vh;
 }
 
 .showImg {
@@ -104,6 +107,14 @@
     height: 10vh;
   }
 
+  .showDiv {
+    display: block;
+    width: 48%;
+    margin: 0 auto;
+    color: #fff;
+    height: 55vh;
+  }
+
   .icons {
     width: 10%;
     font-size: 24px;
@@ -126,10 +137,6 @@
   .sbc p {
     font-size: 20px;
     font-weight: 500;
-  }
-
-  .showDiv {
-    height: 55vh;
   }
 
   .allCompanies {

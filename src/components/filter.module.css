@@ -1,0 +1,41 @@
+.filterDiv {
+  width: 98vw;
+  height: 4vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.filterDiv button {
+  color: #274d82;
+  cursor: pointer;
+  margin-top: 5px;
+  height: 4vh;
+  margin-left: 5px;
+}
+
+.filterInput {
+  margin-top: 5px;
+  width: 40vw;
+  border-radius: 5px;
+  height: 4vh;
+  background: #274d82;
+  color: antiquewhite;
+  border: none;
+}
+
+.filterInput::placeholder {
+  color: white;
+  font-style: italic;
+  opacity: 0.6;
+}
+
+@media screen and (min-width: 768px) {
+  .filterDiv {
+    height: 5vh;
+  }
+
+  .filterInput {
+    width: 20vw;
+  }
+}
