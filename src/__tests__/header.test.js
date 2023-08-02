@@ -9,7 +9,6 @@ describe('Test the header component', () => {
         <Header />
       </MemoryRouter>,
     );
-
     expect(container).toMatchSnapshot();
   });
 });
