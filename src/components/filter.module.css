@@ -16,17 +16,26 @@
 
 .filterInput {
   margin-top: 5px;
-  width: 40vw;
+  width: 45vw;
   border-radius: 5px;
   height: 4vh;
   background: #274d82;
   color: antiquewhite;
+  font-size: 12px;
   border: none;
+}
+
+.filterInput:focus {
+  border: none;
+}
+
+.btn {
+  font-size: 12px;
 }
 
 .filterInput::placeholder {
   color: white;
-  font-style: italic;
+  font-size: 10px;
   opacity: 0.6;
 }
 

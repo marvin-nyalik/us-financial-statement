@@ -6,7 +6,7 @@ const Filter = ({ search, setSearch, onSubmit }) => (
   <form onSubmit={(e) => { e.preventDefault(); onSubmit(search); }}>
     <div className={css.filterDiv}>
       <input className={css.filterInput} placeholder="Enter code" onChange={(e) => setSearch(e.target.value)} value={search} />
-      <button type="button" onClick={(e) => { e.preventDefault(); onSubmit(search); }}> SEARCH </button>
+      <button type="button" className={css.btn} onClick={(e) => { e.preventDefault(); onSubmit(search); }}> SEARCH </button>
     </div>
   </form>
 );

@@ -24,7 +24,7 @@ const Detail = () => {
   const loading = useSelector((state) => state.company.loading);
   const headline = 'Company Statement';
   const back = <i className="bx bx-chevron-left-circle" />;
-  const showlineBase = 'Company statement report for ';
+  const showlineBase = 'Financial statement Report(s)  |  Area: USA (+1) |\n  Code: ';
   const showline = showlineBase.concat(symbol);
 
   if (loading) {
@@ -43,12 +43,12 @@ const Detail = () => {
         </p>
       ) : (
         <div className={css.reports}>
-          {report.map((report, index) => (
+          {report.map((report) => (
             <div key={`${report.researchExpenses}${report.date}`} className={css.cover}>
               <h3 className={css.reportName}>
-                Report
+                Financial Statement
                 {' '}
-                {index + 1}
+                {report.year}
               </h3>
               <p>
                 <span> Report Date: </span>

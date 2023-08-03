@@ -11,11 +11,11 @@ const Company = ({ name }) => {
           <i className="bx bx-chevron-right-circle" />
         </div>
         <div className={css.boxBody}>
-          <h3>
+          <p className={css.code}>
             Code:
             {' '}
             {names}
-          </h3>
+          </p>
           <div>
             <p>Area : US</p>
           </div>

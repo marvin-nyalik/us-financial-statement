@@ -19,9 +19,9 @@ const Showcase = ({ image, showline }) => {
         <img className={css.showImg} src={image} alt="avatar" />
       </div>
       <div className={css.showDiv}>
-        <h3 className={css.showline}>
+        <p className={css.showline}>
           {showline}
-        </h3>
+        </p>
         <div className={css.companyList}>
           {companies.length > 0 ? companies.map((company) => (
             <p key={company} className={company === activeCompany ? css.active : css.inactive}>

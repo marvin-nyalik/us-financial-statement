@@ -1,7 +1,7 @@
 .cover {
   display: flex;
   flex-direction: column;
-  width: 95vw;
+  width: 90vw;
   height: auto;
   margin: 0 auto;
   justify-content: flex-start;
@@ -17,7 +17,7 @@
   height: 6vh;
   border-radius: 5px;
   color: white;
-  font-size: 15px;
+  font-size: 10px;
 }
 
 span i {
@@ -25,9 +25,10 @@ span i {
 }
 
 .reportName {
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 600;
   color: white;
+  margin: 10px auto;
 }
 
 .noReports {
@@ -45,11 +46,20 @@ span i {
   }
 
   .cover {
-    width: 45vw;
+    width: 42vw;
     padding: 5px;
-    border: 1px solid lightgray;
+    border: 1px solid rgb(215, 213, 213);
     border-radius: 5px;
     margin: 10px auto;
     float: left;
+  }
+
+  .cover p {
+    font-size: 15px;
+    width: 90%;
+    margin: 15px auto;
+  }
+  .reportName {
+    font-size: 20px;
   }
 }
