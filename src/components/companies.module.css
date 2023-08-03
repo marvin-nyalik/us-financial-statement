@@ -200,14 +200,6 @@
     height: 4vh;
     background: rgb(37, 47, 50);
   }
-
-  .active::before {
-    content: '*';
-  }
-
-  .active::after {
-    content: ' - On';
-  }
 }
 
 @media screen and (min-width: 1024px) {
