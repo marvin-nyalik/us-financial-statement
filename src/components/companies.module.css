@@ -111,11 +111,13 @@
   .header {
     height: 10vh;
   }
+
   .showline {
     font-size: 15px;
     color: #fff;
     margin-top: 0;
   }
+
   .showcase {
     height: 35%;
     width: 98vw;
@@ -125,6 +127,7 @@
     align-items: center;
     overflow: hidden;
   }
+
   .showDiv {
     display: block;
     width: 48%;

@@ -39,7 +39,7 @@
   font-size: 12px;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .boxBody p {
     font-size: 18px;
   }
@@ -48,6 +48,7 @@
     font-weight: 600;
     font-size: 20px;
   }
+
   .box i {
     font-size: 15px;
   }
