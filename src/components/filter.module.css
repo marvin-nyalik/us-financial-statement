@@ -1,0 +1,50 @@
+.filterDiv {
+  width: 98vw;
+  height: 4vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.filterDiv button {
+  color: #274d82;
+  cursor: pointer;
+  margin-top: 5px;
+  height: 4vh;
+  margin-left: 5px;
+}
+
+.filterInput {
+  margin-top: 5px;
+  width: 45vw;
+  border-radius: 5px;
+  height: 4vh;
+  background: #274d82;
+  color: antiquewhite;
+  font-size: 12px;
+  border: none;
+}
+
+.filterInput:focus {
+  border: none;
+}
+
+.btn {
+  font-size: 12px;
+}
+
+.filterInput::placeholder {
+  color: white;
+  font-size: 10px;
+  opacity: 0.6;
+}
+
+@media screen and (min-width: 768px) {
+  .filterDiv {
+    height: 5vh;
+  }
+
+  .filterInput {
+    width: 20vw;
+  }
+}

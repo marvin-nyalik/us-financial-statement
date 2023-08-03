@@ -1,0 +1,55 @@
+.cover {
+  width: 98%;
+  height: auto;
+  margin: 5px;
+  background: #274d82;
+  text-decoration: none;
+  border-radius: 3px;
+  border: 1px solid #274d82;
+  color: #fbfbfb;
+  font-size: 12px;
+  padding: 5px;
+  display: flex;
+  overflow: hidden;
+  justify-content: flex-start;
+}
+
+.cover:hover {
+  transform: scaleX(0.98) scaleY(0.98);
+  transition: 0.3s ease-in-out;
+  background: rgb(62, 124, 182);
+  border-radius: 6px;
+  border-color: aliceblue;
+}
+
+.companyLink {
+  text-decoration: none;
+}
+
+.box {
+  position: relative;
+  right: -80%;
+}
+
+.box i {
+  font-size: 12px;
+}
+
+.boxBody p {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .boxBody p {
+    font-size: 18px;
+  }
+
+  .code {
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .box i {
+    font-size: 15px;
+  }
+}
